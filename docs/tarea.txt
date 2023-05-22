@@ -1,3 +1,0 @@
--agrandar tamaño paginado.
--vista contenido de las peliculas
--los campor de busqueda y los filtros
