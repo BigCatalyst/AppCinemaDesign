@@ -1,0 +1,91 @@
+.body-color {
+  background-color: rgba(128, 128, 128, 0.495) !important;
+}
+
+.user-view {
+  width: 300px;
+  height: 220px;
+}
+
+.user-view .background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sidenav .user-view .name-wrapper {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.sidenav .user-view .name {
+  font-size: 24px;
+  display: block;
+}
+
+.sidenav .user-view .phone {
+  font-size: 15px;
+  display: block;
+  margin-top: 0px;
+}
+
+.title-ul-sidenav {
+  padding: 0 32px;
+  margin: 0;
+  margin-top: 14px;
+}
+
+.sidenav li > a {
+  font-size: 12px;
+}
+/******************************************/
+.img-card {
+  height: 190px;
+}
+
+.card .card-image .card-title {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  width: 100%;
+  opacity: 0.7;
+  margin-left: 3px;
+  margin-bottom: -3px;
+}
+
+.card .card-content {
+  padding: 10px;
+  height: 85px;
+  width: 100%;
+}
+
+.card .card-content .card-title {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+  width: 100%;
+  opacity: 0.7;
+  margin-left: 3px;
+  margin-bottom: -3px;
+}
+
+.pagination li {
+  height: 35px;
+  width: 35px;
+}
+
+.pagination li a {
+  margin-top: 2px;
+}
+
+.pagination li i {
+  margin-top: 3px;
+}
+
+.pagination li.active {
+  background-color: #02334b;
+}
+.pagination li.disabled {
+  cursor: default;
+  color: #19191951;
+}
