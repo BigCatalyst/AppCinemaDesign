@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Orden Alfabetico</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../../librerias/css/materialize.min.css" />
+    <link rel="stylesheet" href="../../librerias/css/icon.css" />
+    <link rel="stylesheet" href="../../librerias/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="../../librerias/css/peliculas/orden_alfabetico.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="blue-grey darken-4">
+        <div class="nav-wrapper container">
+          <div class="nav-logo-wrapper">
+            <a href="#" class="brand-logo"
+              ><img
+                src="../../librerias/img/sidebar.png"
+                style="width: 135px; height: 100%"
+                alt="Logo"
+            /></a>
+          </div>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-large-only">
+            <li>
+              <a href="../../index.html" class="waves-effect waves-light"
+                ><i class="material-icons left">home</i>Inicio</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li>
+          <div class="user-view z-depth-2">
+            <div class="background">
+              <img src="../../librerias/img/sidebar.png" />
+            </div>
+
+            <div class="name-wrapper">
+              <a href="#name"
+                ><span class="white-text name">Cinema Visión</span></a
+              >
+              <a href="#phone"
+                ><span class="white-text phone">Teléfono: 555-1234</span></a
+              >
+            </div>
+          </div>
+        </li>
+        <li style="margin-top: 15px">
+          <a href="../../index.html" class="waves-effect"
+            ><i class="material-icons left">home</i>INICIO</a
+          >
+        </li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li>
+          <p class="title-ul-sidenav">PELÍCULAS</p>
+        </li>
+        <li>
+          <a href="orden_alfabetico.html" class="waves-effect"
+            ><i class="material-icons left">sort_by_alpha</i>ORDEN ALFABÉTICO</a
+          >
+        </li>
+        <li>
+          <a href="genero.html" class="waves-effect"
+            ><i class="material-icons left">movie_filter</i>PELÍCULAS POR
+            GÉNERO</a
+          >
+        </li>
+        <li>
+          <a href="actores.html" class="waves-effect"
+            ><i class="material-icons left">person</i>PELÍCULAS POR ACTORES</a
+          >
+        </li>
+        <li>
+          <a href="saga.html" class="waves-effect"
+            ><i class="material-icons left">view_carousel</i>PELÍCULAS POR
+            SAGA</a
+          >
+        </li>
+        <li>
+          <a href="combo.html" class="waves-effect"
+            ><i class="material-icons left">local_offer</i>PELÍCULAS POR
+            COMBO</a
+          >
+        </li>
+        <li>
+          <a href="3d.html" class="waves-effect"
+            ><i class="material-icons left">theaters</i>PELÍCULAS 3D</a
+          >
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <div class="container">
+        <div
+          style="
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <h5 class="center-align">Orden Alfabetico</h5>
+          <div class="divider" style="width: 200px"></div>
+        </div>
+
+        <div style="margin-top: 30px">
+          <form>
+            <div style="display: flex; width: 100%; align-items: center">
+              <i class="material-icons left">sort_by_alpha</i>
+              <select style="width: 100%" class="select_search">
+                <option value="" disabled selected>
+                  Seleccione una opción
+                </option>
+                <option value="0-9">0-9</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="G">G</option>
+                <option value="H">H</option>
+                <option value="I">I</option>
+                <option value="J">J</option>
+                <option value="K">K</option>
+                <option value="L">L</option>
+                <option value="M">M</option>
+                <option value="N">N</option>
+                <option value="Ñ">Ñ</option>
+                <option value="O">O</option>
+                <option value="P">P</option>
+                <option value="Q">Q</option>
+                <option value="R">R</option>
+                <option value="S">S</option>
+                <option value="T">T</option>
+                <option value="U">U</option>
+                <option value="V">V</option>
+                <option value="W">W</option>
+                <option value="X">X</option>
+                <option value="Y">Y</option>
+                <option value="Z">Z</option>
+              </select>
+            </div>
+
+            <div style="display: flex; align-items: center; width: 100%">
+              <i class="material-icons left">search</i>
+              <div class="input-field" style="width: 100%">
+                <input id="buscar" type="text" class="validate input-value" />
+                <label for="buscar">Buscar</label>
+              </div>
+            </div>
+
+            <button
+              class="btn waves-effect waves-light btn-buscar"
+              type="button"
+              name="action"
+            >
+              <i class="material-icons left" style="height: 20px; width: 20px"
+                >search</i
+              >
+              Buscar
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <script src="../../librerias/js/jquery.min3.js"></script>
+    <script src="../../librerias/js/materialize.min.js"></script>
+    <script src="../../librerias/js/init.js"></script>
+    <script src="../../librerias/js/peliculas/orden_alfabetico.js"></script>
+
+    <script></script>
+  </body>
+</html>
